@@ -1,0 +1,5 @@
+== ve equals() farklý. == memory adresine bakar. split methodu kullandýktan sonra equals kullan(1)
+str = str.replaceAll("\\s", "");                                                               (2)
+str = str.replaceAll("[)][(]", ")*(");
+str = str.replaceAll("([0-9])[(]", "$1*(");
+str = str.replaceAll("[)]([0-9])", ")*$1");
