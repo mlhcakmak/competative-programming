@@ -1,5 +1,16 @@
 == ve equals() farklý. == memory adresine bakar. split methodu kullandýktan sonra equals kullan(1)
+
 str = str.replaceAll("\\s", "");                                                               (2)
 str = str.replaceAll("[)][(]", ")*(");
 str = str.replaceAll("([0-9])[(]", "$1*(");
 str = str.replaceAll("[)]([0-9])", ")*$1");
+
+boolean bir array oluþturduðunda içindeki tüm deðerler default false olur en azýndan javada öyle oluyor (3)
+
+String s=Integer.toBinaryString(4); 
+int num=Integer.parseInt(sb.toString(),2);  yandaki 2 binary sistemde çevir demek.  (4)
+
+
+
+
+
