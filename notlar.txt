@@ -7,8 +7,11 @@ str = str.replaceAll("[)]([0-9])", ")*$1");
 
 boolean bir array oluþturduðunda içindeki tüm deðerler default false olur en azýndan javada öyle oluyor (3)
 
-String s=Integer.toBinaryString(4); 
+String s=Integer.toBinaryString(4); //binaryString oluþturma
 int num=Integer.parseInt(sb.toString(),2);  yandaki 2 binary sistemde çevir demek.  (4)
+
+int n= 'b' - 'a'  //chardan charý çýkarýrsan veya toplarsan integer döner. (5)
+
 
 
 
