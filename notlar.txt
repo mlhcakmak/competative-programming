@@ -12,6 +12,8 @@ int num=Integer.parseInt(sb.toString(),2);  yandaki 2 binary sistemde çevir deme
 
 int n= 'b' - 'a'  //chardan charý çýkarýrsan veya toplarsan integer döner. (5)
 
+Collections.sort(list,Collections.reverseOrder());  //hackerrankta reversort
+Collections.sort(list)  //hackerrankta sort ,list or array
 
 
 
