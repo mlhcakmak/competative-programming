@@ -15,6 +15,16 @@ int n= 'b' - 'a'  //chardan charý çýkarýrsan veya toplarsan integer döner. (5)
 Collections.sort(list,Collections.reverseOrder());  //hackerrankta reversort
 Collections.sort(list)  //hackerrankta sort ,list or array
 
+kk - hours - range (1 to 24) - hours in 24 hours format
+HH - hours - range (0 to 23) - hours in 24 hours format
+hh - hours - range (1 to 12) - hours in 12 hours format with AM/PM
+
+Arrays.asList(maxRecord,minRecord);   //list oluþturma 
+
+Character.toLowerCase(ch) and Character.isUpperCase(ch)
+
+
+
 
 
 
